@@ -17,5 +17,9 @@
     "peer": "^0.5.3",
     "socket.io": "^2.3.0",
     "uuid": "^8.3.0"
+  },
+   "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
