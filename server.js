@@ -16,7 +16,7 @@ const opinions = {
 app.use("/peerjs", ExpressPeerServer(server, opinions));
 app.use(express.static("public"));
 
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
   res.redirect(`/${uuidv4()}`);
 });
 
